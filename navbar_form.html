@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Creating Navbar dan Layouting</title>
+        <link rel="stylesheet"href="style.css"/>
+        <script src="contact.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <div class="left-side"> 
+                    <img src="img/dumbways.png"/>
+                    <ul>
+                        <li>
+                            <a href="" class="list-active">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="right-side">
+                <a href="">Contact Me</a>
+            </div>
+        </nav>
+
+    <div style="height: 100vh;display: flex;align-items:flex-start;justify-content: center;">
+        <div style="margin-top: 120px; width: 300px;margin-bottom: 50px;" 
+            <form>
+                <div style="margin-bottom: 15px; text-align: left; font-family:Georgia, 'Times New        Roman', Times, serif; font-weight: bolder;">
+                    <label for="input-name">Name</label>
+                    <input id="input-name" style="width: 100%;background-color: rgb(214, 213, 213);border:white;border-radius: 4px; padding: 8px;"/>
+                </div>
+                <br>
+                <div style="margin-bottom: 8px; text-align: left; font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bolder;"/>
+                    <label for="input-email">Email</label>
+                    <input id="input-email"style="width: 100%; background-color: rgb(214, 213, 213);border:white;border-radius: 4px;padding: 6px"/>
+                </div>
+                <br>
+                <div style="margin-bottom: 8px; text-align: left;font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bolder;">
+                    <label for="input-phone_number">Phone Number</label>
+                    <input id="input-phone_number"style="width: 100%; background-color: rgb(214, 213, 213);border:white;border-radius: 4px;padding: 6px"/> 
+                </div>
+                <br>
+                <div style="margin-bottom: 8px; text-align: left; font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bolder;">
+                <label>Subject</label>
+                    <select input id="input-subject"style="width: 100%; background-color: rgb(214, 213, 213);border:white;border-radius: 4px;padding: 5px;">
+                        <option>Halo</option>
+                        <option>Hola</option>
+                        <option>Hi</option>
+                    </select>
+                </div>
+                <br>
+                <div style="margin-bottom: 8px; text-align: left; font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bolder;">
+                    <label>Pesan</label>
+                     
+                    <textarea input id= "input-pesan" style="width: 100%;background-color: rgb(214, 213, 213);border:white;border-radius: 4px;padding: 15px;"></textarea>
+                </div>
+                <br>
+                <button type="button" onclick="submitForm()" style="background-color: rgb(235, 93, 93); margin-right: 250px;padding: 7px;border:white; border-radius: 5px; font-weight: bolder;">Submit</button>
+            
+            </form>
+        </div>
+    </div>
+    </body>
+</html>
